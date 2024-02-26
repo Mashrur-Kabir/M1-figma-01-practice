@@ -1,0 +1,50 @@
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header{
+    width: 1600px;
+    height: 808px;
+    background-image: url('../images/banner/banner1.png');
+    align-items: center;
+    text-align: right;
+}
+
+.page-title{
+    color: var(--Dark-01, #151414);
+    font-size: 65px;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 525px;
+    max-height: 228px;
+    padding: 216px 230px 0px 845px;
+    margin: 0;
+}
+
+.title-summary{
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    max-width: 494px;
+    max-height: 78px;
+    padding: 0px 230px 262px 876px;
+    margin-top: 24px;
+    margin-left: 31px;
+}
+
+.button-head{
+    max-width: 160px;
+    max-height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 26px;
+
+}
