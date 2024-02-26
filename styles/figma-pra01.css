@@ -1,8 +1,13 @@
+/* Common styles */
+
 body{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin: auto;
 }
+
+/* Header Styles */
 
 .header{
     width: 1600px;
@@ -30,7 +35,7 @@ body{
     line-height: 23px;
     max-width: 494px;
     max-height: 78px;
-    padding: 0px 230px 262px 876px;
+    padding: 0px 230px 30px 876px;
     margin-top: 24px;
     margin-left: 31px;
 }
@@ -38,7 +43,7 @@ body{
 .button-head{
     max-width: 160px;
     max-height: 64px;
-    flex-shrink: 0;
+    border: 0;
     border-radius: 5px;
     background: #F15B22;
     color: #FFF;
@@ -46,5 +51,49 @@ body{
     font-weight: 600;
     line-height: normal;
     padding: 20px 26px;
-
+    margin-right: 230px;
 }
+
+/* Segment 2 - Failures of previous year */
+
+.failure-content{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    max-width: 1200px;
+}
+
+.text-only{
+    padding: 370px 322px 215px 105px;
+    text-align: left;
+}
+
+
+.failure-content .failure-pc{
+    display: flex;
+    padding: 140px 134px 0 206px;
+}
+
+.failure-title{
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    width: 288px;
+}
+
+.list-of-failure li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
