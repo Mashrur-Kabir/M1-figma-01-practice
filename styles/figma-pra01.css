@@ -109,15 +109,46 @@ body{
 
 #plan-T{
     text-align: center;
-    padding: 135px 710px 55px 710px;
+    padding: 30px 710px 30px 400px;
     color: var(--Dark-01, #151414);
     font-size: 40px;
     font-weight: 700;
     line-height: normal;
+    width: 179px;
+    height: 47px;
 }
 
+.My-plans {
+    text-align: center;
+    padding-left: 230px;
+    padding-right: 249px;
+  }
 
+.sectors {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  
+.plan {
+    flex: 1;
+    margin: 0 35px 50px 35px;
+    text-align: center;
 
+  }
+
+.plan-title {
+    margin-top: 18.5px;
+    margin-bottom: 16px;
+    white-space: nowrap; 
+  }
+
+.sbplan {
+    margin: 0;
+  }
+
+/* Segment 4 - Contact */
 
 
 
