@@ -156,7 +156,6 @@ body{
 }
 
 .call-now-btn{
-    margin-top: 24px;
     width: 160px;
     height: 64px;
     border-radius: 5px;
@@ -182,13 +181,93 @@ body{
 
 .contact-content{
     position: absolute;
-    top: 30%;
-    left: 32%;
+    top: 125px;
+    left: 475px;
     transform: translate(-50%, -50%);
     text-align: left;
 }
 
 /* Footer Section */
+
+.end-section{
+    width: 1490px;
+    height: 577px;
+    background: var(--Dark-01, #151414);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content{
+    padding: 80px 0 130px 180px;
+}
+
+.left-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.left-text, .rando{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.left-text{
+    margin-bottom: 24px;
+}
+
+.rando{
+    margin-bottom: 20px;
+}
+
+.icon-group{
+    margin: 35px 24px 0 0;
+}
+
+.right-content{
+    padding: 100px 130px 0px 180px;
+}
+
+.right-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right-email{
+    color: var(--Dark-07, #F3F3F3);
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 23px 128px 23px 21px;
+    border-radius: 5px;
+    border-color: #F3F3F3;
+    background: var(--Dark-01, #151414);
+}
+
+.subscribe{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    margin-top: 17px;
+}
+
+
+
 
 
 
